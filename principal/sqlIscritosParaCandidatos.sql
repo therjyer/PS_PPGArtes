@@ -1,0 +1,37 @@
+INSERT INTO `candidato`(
+    `estado`,
+    `numInscricao`,
+    `processo`,
+    `tipoProcesso`,
+    `nome`,
+    `cotas`,
+    `email`,
+    `cpf`,
+    `optCampo`,
+     `areaAtuacao`,
+    `optLinhaPesquisa`,
+    `linhaPesquisa`,
+    `optOrientador1`,
+    `optOrientador2`,
+	orientador1,
+    orientador2)
+    
+    SELECT
+        '1',
+        `numInscricao`,
+        '49',
+        `optTipoProcesso`,
+        `txtNome`,
+        'ac',
+        `txtEmail`,
+        `txtCPF`,
+        `optCampo`,
+        `optCampo`,
+        `optLinhaPesquisa`,
+        `optLinhaPesquisa`,
+        `optOrientador1`,
+        `optOrientador2`,
+		`optOrientador1`,
+        `optOrientador2`
+    FROM
+        `db_inscritos`
