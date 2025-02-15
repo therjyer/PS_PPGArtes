@@ -1,0 +1,15 @@
+_colocar um campo obrigatório para anexar o currículo lattes em cima do campo de link lattes_
+
+_separar pessoas negras de trans_
+
+_renomear de "Laudo Médico/Relatório Médico/autodeclaração PCD (item 2.5 do Edital)" para "Laudo médico/Relatório médico (item x.x do Edital)"_
+
+_renomear de "Título do Projeto Proposto para o Mestrado:" para "Título do projeto proposto"_
+
+Atualizar os orientadores conforme suas linhas no mestrado e doutorado
+
+_renomear de "GRU e Comprovante de Pagamento (Conforme subitem 3.2.4- ANEXO 2):" para "GRU e Comprovante de Pagamento ou Declaração de isenção (Conforme subitem 3.2.4- ANEXO 2):"_
+
+quando for mestrado será "1 certificado de proficiência em língua estrangeira (Conforme subitem 3.2.1.5)" e quando for doutorado será "2 certificados de proficiência em língua estrangeira (Conforme subitem 3.2.1.5)"
+
+verificar todos os itens mencionados nos campos de inscrição

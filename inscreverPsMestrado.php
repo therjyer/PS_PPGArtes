@@ -1,26 +1,18 @@
 <?php
-
-
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 session_start();
-$_SESSION['tipoinscrito']  = '1';
+$_SESSION['tipoinscrito'] = '1';
 
 date_default_timezone_set('America/Belem');
-$datetime1 = date_create('2022-04-10');
-$datetime2 = new DateTime("now");
-//if ($datetime1 >= $datetime2 ) {
-header("Location: principal/inscreverPs.php"); 
 
-//}
- //else
-   //  {
-      
- // header("Location: aviso.html");
-    // }
-     
+// Definir o período de inscrições
+$inicioInscricao = new DateTime('2025-02-14');
+$fimInscricao = new DateTime('2025-03-13 23:59:59'); // Último segundo do dia 13 de março
+$dataAtual = new DateTime("now");
+
+if ($dataAtual >= $inicioInscricao && $dataAtual <= $fimInscricao) {
+    header("Location: principal/inscreverPs.php"); // Inscrição permitida
+} else {
+    header("Location: aviso.html"); // Fora do período de inscrição
+}
+exit; // Evita execução de código após o redirecionamento
 ?>

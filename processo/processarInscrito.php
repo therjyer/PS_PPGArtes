@@ -165,7 +165,7 @@ $mail->Debugoutput = 'html';
             <form id="form_98277" class="appnitro"  method="post" action="">
                 <div class="form_description">
                     <h2>PSPPGARTES</h2>
-                    <p>Formulário de Solicitação de Inscrição - Edital 2024 - <?php echo $tipoTitulo ?></p>
+                    <p>Formulário de Solicitação de Inscrição - Edital 2025 - <?php echo $tipoTitulo ?></p>
                 </div>						
                 <ul >
                     <!--h3>Processando arquivos</h3-->
@@ -306,9 +306,9 @@ $mail->Debugoutput = 'html';
 //
                     if ($tipoinscrito == 1) //3 INIBE DE ENVIAR APRA O PSPPGARTES
                     {
-                        //$mail->AddAddress("psppgartes.mestrado@gmail.com");
+                        $mail->AddAddress("psppgartes.mestrado@gmail.com");
                     } else {
-                        //$mail->AddAddress("psppgartesdoutorado2@gmail.com");
+                        $mail->AddAddress("psppgartesdoutorado2@gmail.com");
                     }
 
                     $mail->AddBCC('alexmota.br@gmail.com', 'Alexandre PPGARTES');
